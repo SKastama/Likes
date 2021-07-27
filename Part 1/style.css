@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+.main {
+    flex-basis: 50%;
+    border: 3px solid black;
+    margin: 10em;
+    padding: 0.5em 1em 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+.top-main {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-main h1 {
+    font-size: x-large;
+    flex: 2;
+}
+.top-main p {
+    flex: 1;
+}
+.top-main button {
+    flex: 1;
+}
+#btn-1 {
+    width: 60px;
+    background-color: rgb(233, 208, 96);
+    border: 2px solid black;
+    box-shadow: black 2px 2px 0px 0px;
+    padding: 5px 0px 5px 0px;
+}
+.bottom-main {
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
